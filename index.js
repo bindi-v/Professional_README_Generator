@@ -67,9 +67,9 @@ const questions = ([{
     const template =`# ${title}
     
     # ${data.title}
-    # Description 
+    ## Description 
     $ {data.Description}
-    # Table Of Contents
+    ## Table Of Contents
 
     * [Installation](#installation)
     * [Usage] (#usage)
@@ -77,15 +77,15 @@ const questions = ([{
     * [Contribution] (#contribution)
     * [GitHub] (#github)
     * [Email] (#email)
-    # Installation 
+    ## Installation 
     $ {installation}
-    # Usage
+    ## Usage
     $ {usage}
-    # License
+    ## License
     $ {license}
-    # Contribution
+    ## Contribution
     $ {contribution}
-    # Contact
+    ## Contact
     * GitHub : $ {github}
     * Email : $ {email}`
     
