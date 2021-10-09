@@ -47,6 +47,6 @@ If you have any questions, please reach out to this email,
 
 ## Video Recording, How to generate README.md by using this Application 
 
-![How To Use Application part1](https://watch.screencastify.com/v/LHfFmvpfFz5XMJYaGL9x)
+![How To Use Application part1](https://drive.google.com/file/d/12PIt0hZq4FWRdMT6RlLaRRZuAx2-07jc/view?usp=sharing)
 
-![How To Use Apllication part2](https://watch.screencastify.com/v/GQ9g8vKix5Z5ffOrhGcb)
+![How To Use Apllication part2](https://drive.google.com/file/d/1XUNKRbUqF_EX3nQvm2UqGkkSZdHhQfk7/view?usp=sharing)
