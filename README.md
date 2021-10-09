@@ -29,7 +29,7 @@ This project is licensed under
  MIT
 For more about the license, check this link
 
-![License](https://opensource.org/licenses/MIT)
+[License](https://opensource.org/licenses/MIT)
 
 ## Contribution
 
@@ -47,6 +47,6 @@ If you have any questions, please reach out to this email,
 
 ## Video Recording, How to generate README.md by using this Application 
 
-![How To Use Application part1](https://drive.google.com/file/d/12PIt0hZq4FWRdMT6RlLaRRZuAx2-07jc/view?usp=sharing)
+[How To Use Application part1](https://drive.google.com/file/d/12PIt0hZq4FWRdMT6RlLaRRZuAx2-07jc/view?usp=sharing)
 
-![How To Use Apllication part2](https://drive.google.com/file/d/1XUNKRbUqF_EX3nQvm2UqGkkSZdHhQfk7/view?usp=sharing)
+[How To Use Application part2](https://drive.google.com/file/d/1XUNKRbUqF_EX3nQvm2UqGkkSZdHhQfk7/view?usp=sharing)
