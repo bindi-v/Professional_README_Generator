@@ -3,15 +3,15 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
 //const renderLicenseBadge = require('.')
-const writeFileAsync = util.promisify(fs.writeFile);
-const generateMarkdown = require('./utils/generateMarkdown');
 
+const generateMarkdown = require('./utils/generateMarkdown');
+const writeFileAsync = util.promisify(fs.writeFile);
 //inquirer to generate questions
 //array of questions for user input
 
-//const promptUser = () => {
-//return inquirer.prompt([
-    const questions = [
+const promptUser = () => {
+return inquirer.prompt([
+   // const questions = [
 {
     type: 'input',
     name: 'Title',
@@ -22,7 +22,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
     message: 'What is the project about? Give a detailed description of your project.',
 }, {
     type: 'input',
-    name: 'Installation ',
+    name: 'Installation',
     message: 'What does the user need to install to run for this application?',
 },{
     type: 'input',
@@ -39,7 +39,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
    message: 'Who contributes in this project?',
 }, {
     type: 'input',
-    name: 'Github Username',
+    name: 'Github',
     message: 'What is your Github Username?',
 }, {
     type: 'input',
@@ -50,8 +50,8 @@ const generateMarkdown = require('./utils/generateMarkdown');
     name: 'Questions',
     message: 'If you have any questions related to project? Reach out me at :',
 },
-];
-//};
+]);
+};
 
 //  generateMarkdown = (answers) =>
 // `# ${answers.title}
@@ -93,12 +93,12 @@ const generateMarkdown = require('./utils/generateMarkdown');
 //   ${answers.email}`;
 
   // Bonus using writeFileAsync as a promise
-//const init = () => {
- //   promptUser()
-//.then((answers) => writeFileAsync('README.md', generateMarkdown(answers)))
-//.then(() => console.log('Successfully wrote to README.md'))
-//.catch((err) => console.error(err));
-//};
+const init = () => {
+    promptUser()
+.then((answers) => writeFileAsync('README.md', generateMarkdown(answers)))
+.then(() => console.log('Successfully wrote to README.md'))
+.catch((err) => console.error(err));
+};
   
  // init();
 
@@ -112,27 +112,26 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 // function to write ReadMe file
 
-function writeToFile(fileName, answers) {
-return fs.writeFile(fileName, answers, function(err){
-   console.log(fileName)
-console.log(answers)
+//return fs.writeFile(fileName, answers, function(err){
+ //  console.log(fileName)
+//console.log(answers)
 
-    if(err) {
-return console.log("Error, please provide necessary data")
-} else {
-       console.log("You successfully generated a readme file!")
-    }
-})
-}
+ //   if(err) {
+//return console.log("Error, please provide necessary data")
+//} else {
+//       console.log("You successfully generated a readme file!")
+//}
+//})
+//}
 
 // Function call to initialize application
-function init() {
-    inquirer.prompt(questions)
-    .then ((answers) => {
-   fs.writeToFile('README.md', generateMarkdown(answers));
-       console.log(answers)
-   }
-    )}
+//function init() {
+ //   inquirer.prompt(questions)
+//.then ((answers) => {
+//fs.writeToFile('README.md', generateMarkdown(answers));
+ //      console.log(answers)
+//}
+ //   )}
 
 // function call initialize application
 init();
