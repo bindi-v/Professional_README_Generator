@@ -1,51 +1,58 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+//  function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return "![License](https://img.shields.io/badge/License-MIT-yellow)"
+  return `![License](https://img.shields.io/badge/License-MIT-yellow)`
 }
 
-// TODO: Create a function that returns the license link
+// function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  return "[![License: MIT](https://opensource.org/licenses/MIT)"
+  return `[![License: MIT](https://opensource.org/licenses/MIT)`
 }
 
-// TODO: Create a function that returns the license section of README
+//  function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+//  function to generate markdown for README
+function generateMarkdown(answers) {
+return `# ${answers.title}
+
   ## Description
-  ![License](https://img.shields.io/badge/License-MIT-yellow)
-    ${data.Description}
-    ## Table Of Contents
+ ![License](https://img.shields.io/badge/License-MIT-yellow)
+ ${answers.Description}
 
-    * [Installation](#installation)
-    * [Usage] (#usage)
-    * [License] (#license)
-    * [Contribution] (#contribution)
-    * [GitHub] (#github)
-    * [Email] (#email)
+  ## Table Of Contents
+
+* [Installation](#installation)
+* [Usage] (#usage)
+   * [License] (#license)
+* [Contribution] (#contribution)
+   * [GitHub] (#github)
+* [Email] (#email)
     
-    ## Installation 
-    The following necessary dependencies must be installed to run the application.
-    ${installation}
-    ## Usage
+## Installation 
+The following necessary dependencies must be installed to run the application.
+  ${answers.installation}
 
-    ${usage}
-    ## License
-    This project is licensed under
-    ${license}
-    ## Contribution
-    ${contribution}
+## Usage
+
+ ${answers.usage}
+
+## License
+This project is licensed under
+${answers.license}
+
+## Contribution
+${answers.contribution}
+
     ## Contact
-    * GitHub : ${github}
-    * Email : ${email}
-    ## Questions
+   * GitHub : ${answers.github}
+* Email : ${answers.email}
+    
+   ## Questions
     If you have any questions, please reach out to this email,
-    ${email}
+ ${answers.email}
 
 `;
 }
