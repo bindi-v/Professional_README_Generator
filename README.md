@@ -33,11 +33,11 @@ For more about the license, check this link
 
 ## Contribution
 
-Trilogy Edication and Coding Bootcamp provide starter code
+Trilogy Education and Coding Bootcamp provide starter code
 
 ## Contact
 
-* GitHub : bindi-v
+* GitHub :[bindi-v](https://github.com/bindi-v/Professional_README_Generator)
 * Email : bindi.vaghela@gmail.com
     
 ## Questions
@@ -49,4 +49,4 @@ If you have any questions, please reach out to this email,
 
 [How To Use Application part1](https://drive.google.com/file/d/12PIt0hZq4FWRdMT6RlLaRRZuAx2-07jc/view?usp=sharing)
 
-[How To Use Application part2](https://drive.google.com/file/d/1XUNKRbUqF_EX3nQvm2UqGkkSZdHhQfk7/view?usp=sharing)
+[How To Use Application part2](https://drive.google.com/file/d/1YHeLKjSVgLU2DoJccXBiKWFuNOnuK8p0/view?usp=sharing)
