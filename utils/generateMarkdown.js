@@ -18,20 +18,22 @@ function renderLicenseSection(license) {}
 function generateMarkdown(answers) {
 return `# ${answers.Title}
 
-  ## Description
+## Description
+
  ![License](https://img.shields.io/badge/License-${answers.License}-yellow)
+
  ${answers.Description}
 
-  ## Table Of Contents
+## Table Of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contribution](#contribution)
-- [Github](#github)
-- [Email](#email)
+- [Contact](#contact)
     
 ## Installation 
+
 The following necessary dependencies must be installed to run the application.
   ${answers.Installation}
 
@@ -40,19 +42,24 @@ The following necessary dependencies must be installed to run the application.
  ${answers.Usage}
 
 ## License
+
 This project is licensed under
-${answers.License}
+ ${answers.License}
 For more about the license, check this link
+
 ![License](https://opensource.org/licenses/MIT)
 
 ## Contribution
+
 ${answers.Contributions}
 
 ## Contact
+
 * GitHub : ${answers.Github}
 * Email : ${answers.Email}
     
 ## Questions
+
 If you have any questions, please reach out to this email,
  ${answers.Email}
 
