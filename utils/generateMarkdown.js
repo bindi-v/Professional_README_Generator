@@ -25,11 +25,11 @@ return `# ${answers.Title}
   ## Table Of Contents
 
 - [Installation](#installation)
-- [Usage] (#usage)
-- [License] (#license)
-- [Contribution] (#contribution)
-- [Github] (#github)
-- [Email] (#email)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Github](#github)
+- [Email](#email)
     
 ## Installation 
 The following necessary dependencies must be installed to run the application.
@@ -43,7 +43,7 @@ The following necessary dependencies must be installed to run the application.
 This project is licensed under
 ${answers.License}
 For more about the license, check this link
-- ![License](https://opensource.org/licenses/MIT)
+![License](https://opensource.org/licenses/MIT)
 
 ## Contribution
 ${answers.Contributions}
