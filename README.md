@@ -4,7 +4,7 @@
 
  ![License](https://img.shields.io/badge/License-MIT-yellow)
 
- You can quickly and easily create a README.md file by using a command line application to generate one. You can dynamically generate a professional README.md file from a user's input.
+ You can quickly and easily create a README.md file by using command line application to generate one. You can dynamically generate a professional README.md file from a user's input.
 
 ## Table Of Contents
 
@@ -20,11 +20,14 @@
 
 The following necessary dependencies must be installed to run the application.
 
-  The following dependencies must be installed to run the application. You need to install inquirer, file system and util.
+   inquirer, fs and utils
 
 ## Usage
 
- The application will be invoked by using node index.js command in terminal.
+ By node index.js command in terminal you can invoked application.
+
+## Test
+N/A
 
 ## License
 
@@ -36,19 +39,19 @@ For more information about the license, check the above link.
 
 ## Contribution
 
-Trilogy Education and Coding Bootcamp provide starter code
+Trilogy Edu and Bootcamp provide starter code
 
 ## Contact
 
-* GitHub : bindi-v(https://github.com/bindi-v)
+* GitHub :[bindi-v](https://github.com/bindi-v)
 * Email : bindi.vaghela@gmail.com
     
 ## Questions
 
 If you have any questions, please reach out to my Github.
 
-### Walk through Video:
+### Walk Through Video:
 
-* 
+* [Check This Video](https://drive.google.com/file/d/1hUTWlXnt5SD2zYuXDjOMelmqo1ricVG7/view?usp=sharing)
 
 #### Thank you for visiting my Github!
