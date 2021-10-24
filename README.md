@@ -10,14 +10,17 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Test](#test)
 - [License](#license)
 - [Contribution](#contribution)
 - [Contact](#contact)
+- [Questions](#questions)
     
 ## Installation 
 
 The following necessary dependencies must be installed to run the application.
-  You need to install inquirer, fs anf util
+
+  The following dependencies must be installed to run the application. You need to install inquirer, file system and util.
 
 ## Usage
 
@@ -25,11 +28,11 @@ The following necessary dependencies must be installed to run the application.
 
 ## License
 
-This project is licensed under
- MIT
-For more about the license, check this link
+This project is licensed under :
 
-[License](https://opensource.org/licenses/MIT)
+ [MIT](https://opensource.org/licenses/MIT)
+
+For more information about the license, check the above link.
 
 ## Contribution
 
@@ -37,16 +40,15 @@ Trilogy Education and Coding Bootcamp provide starter code
 
 ## Contact
 
-* GitHub :[bindi-v](https://github.com/bindi-v/Professional_README_Generator)
+* GitHub : bindi-v(https://github.com/bindi-v)
 * Email : bindi.vaghela@gmail.com
     
 ## Questions
 
-If you have any questions, please reach out to this email,
- bindi.vaghela@gmail.com
+If you have any questions, please reach out to my Github.
 
-## Video Recording, How to generate README.md by using this Application 
+### Walk through Video:
 
-[How To Use Application part1](https://drive.google.com/file/d/12PIt0hZq4FWRdMT6RlLaRRZuAx2-07jc/view?usp=sharing)
+* 
 
-[How To Use Application part2](https://drive.google.com/file/d/1YHeLKjSVgLU2DoJccXBiKWFuNOnuK8p0/view?usp=sharing)
+#### Thank you for visiting my Github!

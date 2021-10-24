@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {
 // function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  return `![License: MIT](https://opensource.org/licenses/MIT)`
+  return `[License: MIT](https://opensource.org/licenses/MIT)`
 }
 
 //  function that returns the license section of README
@@ -28,13 +28,16 @@ return `# ${answers.Title}
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Test](#test)
 - [License](#license)
 - [Contribution](#contribution)
 - [Contact](#contact)
+- [Questions](#questions)
     
 ## Installation 
 
 The following necessary dependencies must be installed to run the application.
+
   ${answers.Installation}
 
 ## Usage
@@ -43,11 +46,11 @@ The following necessary dependencies must be installed to run the application.
 
 ## License
 
-This project is licensed under
- ${answers.License}
-For more about the license, check this link
+This project is licensed under :
 
-![License](https://opensource.org/licenses/MIT)
+ [${answers.License}](https://opensource.org/licenses/MIT)
+
+For more information about the license, check the above link.
 
 ## Contribution
 
@@ -55,14 +58,16 @@ ${answers.Contributions}
 
 ## Contact
 
-* GitHub : ${answers.Github}
+* GitHub :[${answers.Github}](add github link)
 * Email : ${answers.Email}
     
 ## Questions
 
-If you have any questions, please reach out to this email,
- ${answers.Email}
+If you have any questions, please reach out to my Github,
 
+* [${answers.Github}]
+
+#### Thank you for visiting my Github!
 `;
 }
 
