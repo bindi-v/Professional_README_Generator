@@ -1,4 +1,4 @@
-# Workout Tracker
+
 
 ## Description
 
@@ -19,13 +19,11 @@
     
 ## Installation 
 
-The following necessary dependencies must be installed to run the application.
 
-  To run this application user need to install mongoDB
 
 ## Usage
 
- Application can be invoked by node server.js command in terminal or user can use deployed to Heroku link to access application.
+ 
 
 ## Test
 
@@ -39,7 +37,7 @@ For more information about the license, check the above link.
 
 ## Contribution
 
-Coding Bootcamp provided starter code.
+
 
 ## Contact
 
