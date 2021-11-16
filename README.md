@@ -51,6 +51,7 @@ THEN I am taken to the corresponding section of the README
     
 ## Installation 
 
+The following necessary dependencies must be installed to run the application.
 
  inquirer, fs and utils 
 
@@ -61,11 +62,6 @@ THEN I am taken to the corresponding section of the README
  ```bash
 node index.js
 ```
-
-## Usage
-
- 
-
 
 ## Test
    N/A
@@ -80,11 +76,11 @@ For more information about the license, check the above link.
 
 ## Contribution
 
-
+Coding Boot Camp provide starter code.
 
 ## Contact
 
-* GitHub :[bindi-v](add github link)
+* GitHub :[bindi-v](https://github.com/bindi-v)
 
 * Email : bindi.vaghela@gmail.com
     
