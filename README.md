@@ -1,10 +1,10 @@
-# Professional README.md Generator
+# Workout Tracker
 
 ## Description
 
  ![License](https://img.shields.io/badge/License-MIT-yellow)
 
- You can quickly and easily create a README.md file by using command line application to generate one. You can dynamically generate a professional README.md file from a user's input.
+ We have provided a starter code with front end code.
 
 ## Table Of Contents
 
@@ -15,19 +15,19 @@
 - [Contribution](#contribution)
 - [Contact](#contact)
 - [Questions](#questions)
+- [WalkthroughVideo](#WalkthroughVideo)
     
 ## Installation 
 
 The following necessary dependencies must be installed to run the application.
 
-   inquirer, fs and utils
+  To run this application user need to install mongoDB
 
 ## Usage
 
- By node index.js command in terminal you can invoked application.
+ Application can be invoked by node server.js command in terminal or user can use deployed to Heroku link to access application.
 
 ## Test
-N/A
 
 ## License
 
@@ -39,19 +39,19 @@ For more information about the license, check the above link.
 
 ## Contribution
 
-Trilogy Edu and Bootcamp provide starter code
+Coding Bootcamp provided starter code.
 
 ## Contact
 
-* GitHub :[bindi-v](https://github.com/bindi-v)
+* GitHub :[bindi-v](add github link)
 * Email : bindi.vaghela@gmail.com
     
 ## Questions
 
 If you have any questions, please reach out to my Github.
 
-### Walk Through Video:
+### WalkthroughVideo
 
-* [Check This Video](https://drive.google.com/file/d/1hUTWlXnt5SD2zYuXDjOMelmqo1ricVG7/view?usp=sharing)
+* [Check this Walk through video to generate Readme file](https://drive.google.com/file/d/1hUTWlXnt5SD2zYuXDjOMelmqo1ricVG7/view)
 
 #### Thank you for visiting my Github!
